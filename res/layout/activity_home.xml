@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#57ca03" >
+
+        <com.zengye.mobilesafe.ui.MyRingWave
+            android:id="@+id/wave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.zengye.mobilesafe.ui.MyRingWave>
+
+        <Button
+            android:id="@+id/btn_quick_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/main_button_selector"
+            android:onClick="quickScan"
+            android:text="@string/quick_scan"
+            android:textColor="#57ca03"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <GridView
+        android:layout_marginTop="25dp"
+        android:id="@+id/list_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zengye="http://schemas.android.com/apk/res/com.zengye.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/is_auto_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="禁用自动更新 "
+        zengye:desc_on="启用自动更新 "
+        zengye:setting_title="设置自动更新" >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_phone_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="禁用显示号码归属地 "
+        zengye:desc_on="启用显示号码归属地 "
+        zengye:setting_title="设置显示号码归属地" >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+
+    <com.zengye.mobilesafe.ui.SettingClickItemView
+        android:id="@+id/sciv_phone_address_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc="默认"
+        zengye:setting_title="设置显示号码归属地窗口颜色" >
+    </com.zengye.mobilesafe.ui.SettingClickItemView>
+    
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/is_open_black_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="禁用通讯卫士 "
+        zengye:desc_on="启用通讯卫士  "
+        zengye:setting_title="设置通讯卫士 " >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+    
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_open_app_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="禁用应用锁 "
+        zengye:desc_on="启用应用锁  "
+        zengye:setting_title="设置应用锁" >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+
+</LinearLayout>

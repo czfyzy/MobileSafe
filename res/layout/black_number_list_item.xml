@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/tv_black_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_black_number_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_black_number"
+        android:layout_below="@+id/tv_black_number"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/iv_black_number_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+ 		android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/btn_delete_selector" />
+
+</RelativeLayout>

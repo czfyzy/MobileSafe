@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zengye="http://schemas.android.com/apk/res/com.zengye.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_system_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="不显示系统进程 "
+        zengye:desc_on="显示系统进程 "
+        zengye:setting_title="设置是否显示系统进程" >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+    <com.zengye.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_auto_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zengye:desc_off="禁用锁屏自动清理"
+        zengye:desc_on="启用锁屏自动清理 "
+        zengye:setting_title="设置是否显示系统进程" >
+    </com.zengye.mobilesafe.ui.SettingItemView>
+
+</LinearLayout>

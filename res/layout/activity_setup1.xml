@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:background="@color/ms_green"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        >
+        <ImageView 
+            android:layout_centerInParent="true"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/lost_found"
+            />
+        
+    </RelativeLayout>
+
+    <TextView
+        style="@style/textContent"
+        android:text="1、手机防盗卫士有如下功能：" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="sim变更报警" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="gps追踪" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="远程数据销毁" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="远程锁屏" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            style="@style/nextButton"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
